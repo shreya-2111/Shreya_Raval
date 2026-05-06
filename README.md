@@ -1,16 +1,50 @@
-# React + Vite
+# Shreya Raval | Premium 3D Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance, and visually stunning Full Stack Developer portfolio built with React.js, Three.js, and Framer Motion. Featuring an immersive 3D hero section, premium glassmorphism UI, and smooth animations.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Insert Vercel/Netlify Deployment Link Here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
+- **Immersive 3D Graphics**: Interactive particle backgrounds and orbiting tech spheres using `@react-three/fiber` and `@react-three/drei`.
+- **Premium UI/UX**: Designed with a sleek dark navy theme, electric cyan/blue glowing accents, and advanced glassmorphism components.
+- **Smooth Animations**: High-performance scroll, hover, and tilt animations powered by Framer Motion.
+- **Fully Responsive**: Optimized for seamless viewing on all devices (Mobile, Tablet, Desktop).
+- **Functional Contact Form**: Direct backend integration for secure email delivery via Nodemailer.
 
-## React Compiler
+## 🛠️ Tech Stack
+- **Frontend**: React.js (Vite), Tailwind CSS
+- **3D & Animation**: Three.js, React Three Fiber, Framer Motion
+- **Backend (Contact Route)**: Node.js, Express, Nodemailer
+- **Icons & Typography**: React Icons, Lucide React, Space Grotesk, Sora
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Running Locally
 
-## Expanding the ESLint configuration
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/shreya-2111/portfolio.git
+   cd portfolio
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up Environment Variables:**
+   Create a `.env` file in the root directory and add your email configuration for the contact form:
+   ```env
+   VITE_EMAIL_USER=your_email@gmail.com
+   VITE_EMAIL_PASS=your_app_password
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   The application will be available at `http://localhost:5173`.
+
+## 📬 Contact
+- **Email**: shreyaraval2111@gmail.com
+- **LinkedIn**: [Shreya Raval](https://www.linkedin.com/in/shreya-raval-a5a4b1326)
+- **GitHub**: [@shreya-2111](https://github.com/shreya-2111)
