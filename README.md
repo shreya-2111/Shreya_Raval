@@ -3,7 +3,7 @@
 A modern, high-performance, and visually stunning Full Stack Developer portfolio built with React.js, Three.js, and Framer Motion. Featuring an immersive 3D hero section, premium glassmorphism UI, and smooth animations.
 
 ## 🚀 Live Demo
-[shreya-raval.vercel.app]
+shreya-raval.vercel.app
 
 ## ✨ Key Features
 - **Immersive 3D Graphics**: Interactive particle backgrounds and orbiting tech spheres using `@react-three/fiber` and `@react-three/drei`.
